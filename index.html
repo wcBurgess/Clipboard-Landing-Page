@@ -14,33 +14,32 @@
   <script src="https://kit.fontawesome.com/08454379ec.js" crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/styles.css" type="css/text">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
 </head>
 
 <body>
   <header class="main-header-area">
     <div class="container" id="brand">
       <div class="brand-logo">
-        <a href="#" class="logo"><img src="images/logo.svg" alt="logo" /></a>
+        <a href="#"><img src="images/logo.svg" class="logo" alt="logo" /></a>
       </div>
     </div>
+
   </header>
   <!---Start Top Cta Area-->
   <section class="intro-cta-area">
-    <div class="intro-cta-content">
-      <div class="container">
-        <artice class="top-cta">
-          <h1> A history of everything you copy</h1>
-          <p>Clipboard allows you to track and organize everything you
-            copy. Instantly access your clipboard on all your devices.</p>
-        </artice>
-        <div class="cta-btn-links">
-          <div class="ios">
-            <button class="ios-btn" href="#">Download for iOS</button>
-          </div>
-          <div class="mac">
-            <button class="mac-btn" href="#">Download for Mac</button>
-          </div>
+    <div class="container" id="intro">
+      <h1 class="intro-h1"> A history of everything you copy</h1>
+      <div class="cta-text">
+        <p>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+        </div>
+      <div class="cta-btn-links">
+        <div class="ios">
+          <button class="ios-btn" href="#">Download for iOS</button>
+        </div>
+        <div class="mac">
+          <button class="mac-btn" href="#">Download for Mac</button>
         </div>
       </div>
     </div>
@@ -50,109 +49,122 @@
     <!---Start Feature Area-->
     <section class="feature-area">
       <div class="container" id="feature">
-
         <div class="feature-top-content">
+           
           <article class="track">
-            <h2> Keep track of your snippets</h2>
-            <p> Clipboard instantly stores any item you copy in the cloud,
-              meaning you can access your snippets immediately on all your
-              devices. Our Mac and iOS apps will help you organize everything.</p>
+              <h2 class="track-h2"> Keep track of your snippets</h2>
+            <p> Clipboard instantly stores any item you copy in the cloud, meaning you can access your
+              snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
           </article>
         </div>
-
+        <!--- End Feature-top-content-->
         <div class="feature-center-content">
           <div class="left-content">
-            <img src="images/image-computer.png" alt="Desktop computer" />
+            <img src="images/image-computer.png" width="719" height="574" alt="Desktop computer" />
           </div>
           <aside class="right-content">
-            <article class="search">
-              <h3>Quick Search</h3>
-              <p>Easily search your snippets by content, category, web address, application, and more.</p>
-            </article>
-            <article class="sync">
-              <h3>iCloud Sync</h3>
-              <p> Instantly saves and syncs snippets across all your devices.</p>
-            </article>
-            <article class="history">
-              <h3> Complete History</h3>
-              <p> Retrieve any snippets from the first moment you started using the app.</p>
-            </article>
+            <div class="search">
+              <h4 class="feature-title">Quick Search</h4>
+              <p class="feature-p">Easily search your snippets by content, category, web address, application, and more.
+              </p>
+            </div>
+            <div class="sync">
+              <h4 class="feature-title">iCloud Sync</h4>
+              <p class="feature-p"> Instantly saves and syncs snippets across all your devices.</p>
+            </div>
+            <div class="history">
+              <h4 class="feature-title"> Complete History</h4>
+              <p class="feature-p"> Retrieve any snippets from the first moment you started using the app.</p>
+            </div>
           </aside>
         </div>
+        <!---End Feature center content-->
 
         <div class="feature-bottom-content">
+           
           <article class="access">
-            <h2>Access Clipboard anywhere</h2>
+              <h2 class="access-h2">Access Clipboard Anywhere</h2>
             <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple
               clicks.</p>
           </article>
-          <div class="devices-img">
+          <div class="access-image">
             <img src="images/image-devices.png" alt="Devices" />
           </div>
         </div>
       </div>
+      <!---End container-->
     </section>
     <!---End Feature Area-->
 
-    <!---Start Productive Area-->
-    <section class="productive-area">
-      <div class="container" id="productive">
-        <div class="productive-content">
-          <article class="workflow">
+    <!---Start Workflow Area-->
+    <section class="worflow-area">
+      <div class="container" id="workflow">
+          
+        <article class="about-workflow">
             <h2>Supercharge your workflow</h2>
-            <p>We’ve got the tools to boost your productivity.</p>
-          </article>
-          <div class="productive-workflow">
-            <article>
-              <div class="article-icon"></div>
-              <h3> Create blacklists</h3>
-              <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-            </article>
-            <article>
-              <div class="article-icon"> </div>
-              <h3> Plain text snippets</h3>
-              <p>Remove unwanted formatting from copied text for a consistent look.</p>
-            </article>
-            <article>
-              <div class="article-icon"></div>
-              <h3>Sneak preview</h3>
-              <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-            </article>
+          <p>We’ve got the tools to boost your productivity.</p>
+        </article>
+        <div class="workflow">
+
+          <!---Blacklist-->
+          <div class="workflow-wrapper">
+            <div class="workflow-icon">
+              <img src="images/icon-blacklist.svg" alt="blacklist" />
+            </div>
+            <h4>Create blacklists</h4>
+            <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+          </div>
+
+          <!---Text-->
+          <div class="workflow-wrapper">
+            <div class="workflow-icon">
+              <img src="images/icon-text.svg" alt="text" />
+            </div>
+            <h4>Plain text snippets</h4>
+            <p>Remove unwanted formatting from copied text for a consistent look.</p>
+          </div>
+
+          <!---Preview-->
+          <div class="workflow-wrapper">
+            <div class="workflow-icon">
+              <img src="images/icon-preview.svg" alt="preview" />
+            </div>
+            <h4>Sneak preview</h4>
+            <p>Quick preview of all snippets on your Clipboard for easy access.</p>
           </div>
         </div>
+        <!---End workflow-->
       </div>
+      <!---End container-->
+
     </section>
     <!---End Productive Area-->
 
     <!---Start User Area-->
-    <section class="users">
-      <div class="container">
-        <div class="user-wrapper"></div>
-        <div class="user-wrapper"></div>
-        <div class="user-wrapper"></div>
-        <div class="user-wrapper"></div>
-        <div class="user-wrapper"></div>
+    <section class="users-area">
+      <div class="container" id="users">
+        <div class="user-wrapper"><img src="images/logo-google.png" alt="google" /></div>
+        <div class="user-wrapper"><img src="images/logo-ibm.png" alt="ibm" /></div>
+        <div class="user-wrapper"><img src="images/logo-microsoft.png" alt="microsoft" /></div>
+        <div class="user-wrapper"><img src="images/logo-hp.png" alt="hp" /></div>
+        <div class="user-wrapper"><img src="images/logo-vector-graphics.png" alt="vector graphics" /></div>
       </div>
     </section>
     <!---End User Area-->
 
     <!---Start Bottom Cta Area-->
     <section class="bottom-cta-area">
-
       <div class="container" id="bottom_cta">
-        <div class="bottom-cta-content">
-          <article class="bottom-cta">
-            <h2>Clipboard for iOS and Mac OS</h2>
-            <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-              and you’re ready to start adding to your clipboard.</p>
-          </article>
-          <div class="cta-btn-links">
-            <div class="ios">
-              <button class="ios-btn" href="#">Download for iOS</button>
-            </div>
-            <div class="mac">
-              <button class="mac-btn" href="#">Download for Mac</button>
-            </div>
+        <div class="cta">
+          <h2 class="cta-h2">Clipboard for iOS and Mac OS</h2>
+          <p >Available for free on the App Store.  Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+        </div>
+        <div class="cta-btn-links">
+          <div class="ios">
+            <button class="ios-btn" href="#">Download for iOS</button>
+          </div>
+          <div class="mac">
+            <button class="mac-btn" href="#">Download for Mac</button>
           </div>
         </div>
       </div>
@@ -162,23 +174,65 @@
 
   <!---Start Footer Area-->
   <footer>
-    <div class="inner-footer">
-      <aside class="footer-left"></aside>
-      <aside class="footer-center">
-        FAQs
-        Contact Us
-        Privacy Policy
-        Press Kit
-        Install Guide
-      </aside>
-      <aside class="footer-right"></aside>
+    <div class="container" id="full-footer">
+      <div class="inner-footer">
+        <aside class="footer-left">
+          <a href="#"><img src="images/logo.svg" width="57" height="57" class="footer-logo" alt="logo" /></a>
+        </aside>
+
+        <aside class="footer-center">
+
+          <div>
+            <a href="#" class="nav-link">FAQs</a>
+            <a href="#" class="nav-link">Contact Us</a>
+          </div>
+
+          <div>
+            <a href="#" class="nav-link">Privacy Policy</a>
+            <a href="#" class="nav-link">Press Kit</a>
+          </div>
+
+          <div>
+            <a href="#" class="nav-link">Install Guide</a>
+          </div>
+        </aside>
+
+        <aside class="footer-right">
+          <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </aside>
+      </div>
     </div>
-    <div class="site-attribution">
-      <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-      </p>
+    <!---Mobile Footer --> 
+    <section class="mobile-footer">
+    <div class="continer" id="mobile-footer">
+      <div class="mobile-top">
+          <a href="#"><img src="images/logo.svg" width="57" height="57" class="mobile-footer-logo" alt="logo" /></a>
+      </div>
+      <div class="mobile-center">
+          <a href="#" class="mobile-nav-link">FAQs</a>
+          <a href="#" class="mobile-nav-link">Contact Us</a>
+          <a href="#" class="mobile-nav-link">Privacy Policy</a>
+          <a href="#" class="mobile-nav-link">Press Kit</a>
+          <a href="#" class="mobile-nav-link">Install Guide</a>
+      </div>
+      <div class="mobile-bottom">
+        <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+      </div>
     </div>
+    </section>
+    <section class="site-attribution">
+      <div class="container" id="attribution">
+        <p class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor </a> |
+          Coded by <a href="wendycburgess.com" target="_blank"> Wendy C Burgess</a>
+        </p>
+      </div>
+    </section>
+
   </footer>
 </body>
 
