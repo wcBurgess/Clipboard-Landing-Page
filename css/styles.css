@@ -103,6 +103,7 @@ a .logo {
     width: 100%;
     margin: 0;
     padding-bottom: 2.125rem;
+    padding-top: 2.125rem;
 }
 
 .container#intro {
@@ -174,7 +175,7 @@ a .logo {
 .feature-area {
     width: 100%;
     margin: 0;
-    padding-top: 4.125rem;
+    padding-top: 6.25rem;
 }
 
 .container#feature {
@@ -193,7 +194,7 @@ a .logo {
     justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0 0 2.8125rem 0;
+    padding: 4.6875rem 0 2.8125rem 0;
     flex-flow: column wrap;
     width: 100%;
 }
@@ -209,7 +210,6 @@ a .logo {
     width: 60%;
     flex: 1 1 auto;
     align-self: center;
-    padding-top:  2.8125rem;
     padding-bottom: 2.8125rem;
     margin: 0 auto;
     text-align: center;
@@ -222,7 +222,7 @@ a .logo {
     display: flex;
     justify-content: space-around;
     margin: 0;
-    padding: 0 0 2.8125rem 0;
+    padding: 4.6875rem 0 2.8125rem 0;
     flex-flow: row wrap;
     width: 100%;
     flex: 1 1 auto;
