@@ -241,6 +241,7 @@ a .logo {
 
 .left-content img {
     margin-right: auto;
+    margin-left:-3rem;
     display: block;
     max-width: 100%;
     height: auto;
