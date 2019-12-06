@@ -499,6 +499,7 @@
     }
 
     .intro-h1 {
+        width: 100%;
         align-self: center;
         flex-flow: row wrap;
         text-align: center;
