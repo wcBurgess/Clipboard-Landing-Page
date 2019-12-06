@@ -79,7 +79,7 @@ button {
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
-    mix-blend-mode: normal;
+    mix-blend-mode: screen;
 }
 
 .container#brand {
@@ -104,8 +104,6 @@ a .logo {
 .intro-cta-area {
     width: 100%;
     margin: 0;
-    padding-bottom: 2.125rem;
-    padding-top: 1.125rem;
 }
 
 .container#intro {
@@ -177,7 +175,7 @@ a .logo {
 .feature-area {
     width: 100%;
     margin: 0;
-    padding-top: 6.25rem;
+    padding-top: 2.25rem;
 }
 
 .container#feature {
