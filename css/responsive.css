@@ -499,7 +499,10 @@
     }
 
     .intro-h1 {
-        align-self: flex-start;
+        align-self: center;
+        flex-flow: row wrap;
+        text-align: center;
+        margin: 0 auto;
         font-size: 1.667rem;
         margin: 0;
     }
