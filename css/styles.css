@@ -187,7 +187,6 @@ a .logo {
     margin: 0 auto;
 }
 
-
 /* Feature Top */
 .feature-top-content, .feature-bottom-content {
     display: flex;
@@ -198,7 +197,7 @@ a .logo {
     flex-flow: column wrap;
     width: 100%;
 }
-.track-h2, .access-h2, .cta-h2{
+.track-h2, .access-h2, .workflow-h2, .cta-h2{
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
