@@ -7,7 +7,7 @@
     }
 }
 
-@media only screen and (min-width: 1199.98px) and (max-width:1600px) {
+@media only screen and (min-width: 1200px) and (max-width:1600px) {
 
     .user-wrapper {
         margin: 0;
@@ -17,7 +17,7 @@
 }
 
 /*Large devices (desktops, less than 1200px)*/
-@media only screen and (max-width: 1199.98px) {
+@media screen and (min-width:992px) and (max-width: 1199.98px) {
     .main-header-area {
         background-image: url("../images/bg-header-desktop.png");
         background-position: top center;
@@ -75,7 +75,7 @@
 }
 
 /*Medium devices (tablets, less than 992px)*/
-@media only screen and (max-width: 991.98px) {
+@media screen and (min-width:768px) and (max-width: 991.98px) {
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
@@ -281,7 +281,7 @@
 }
 
 /*Small devices (landscape phones, less than 768px)*/
-@media only screen and (max-width: 767.98px) {
+@media screen and (min-width: 575px) and (max-width: 767.98px) {
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top center;
@@ -487,7 +487,7 @@
 }
 
 /*Small devices (landscape phones, less than 576px )*/
-@media only screen and (max-width: 575.98px) {
+@media screen and (max-width: 480px) {
 
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
@@ -501,7 +501,7 @@
     .intro-h1 {
         width: 100%;
         align-self: center;
-        flex-flow: row wrap;
+        flex-flow: row nowrap;
         text-align: center;
         margin: 0 auto;
         font-size: 1.667rem;
@@ -510,14 +510,12 @@
 
     .cta-text {
         width: 100%;
-
         margin: 0 auto;
         font-size: 0.8333rem;
         text-align: center;
     }
 
     .cta-btn-links {
-        flex-flow: column wrap;
         justify-content: center;
         align-items: center;
         width: 100%;
