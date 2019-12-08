@@ -147,8 +147,9 @@ a .logo {
 }
 
 .ios-btn {
-    background: hsl(171, 66%, 44%);
-    border: 2px solid hsl(171, 66%, 44%);
+    background-color: hsl(171, 66%, 44%);
+    border: 1px solid hsl(171, 66%, 44%);
+    box-shadow:  0px 1px 1px 2px hsl(170, 66%, 36%), 1px 0px 0px 0px hsl(171, 66%, 44%);
 }
 
 .mac {
@@ -156,8 +157,9 @@ a .logo {
 }
 
 .mac-btn {
-    background: hsl(233, 100%, 69%);
-    border: 2px solid hsl(233, 100%, 69%);
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+    box-shadow:  0px 1px 1px 2px hsl(232, 64%, 58%), 1px 0px 0px 0px hsl(233, 100%, 69%);
 }
 
 .ios-btn:hover {
