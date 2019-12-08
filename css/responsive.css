@@ -610,14 +610,19 @@
         text-align: center;
         margin: 0 auto;
     }
-
+    
     .track,
     .access,
     .cta {
-        width: 100%;
+        width: 90%;
         font-size: 16px;
     }
-
+    .feature-center-content {
+        padding-top: 2.6875rem;
+    }
+    .feature-p {
+        font-size: 16px;
+    }
     .access-image {
         width: 100%;
         margin: 0;
@@ -645,10 +650,7 @@
     .search,
     .sync,
     .history {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
+        width: 90%;
         text-align: center;
     }
 
