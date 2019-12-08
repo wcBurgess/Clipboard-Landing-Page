@@ -517,13 +517,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        
     }
+    
     .cta-text p {
-        margin: 0;
-        padding: 0;
         text-align: center;
     }
+    
     .cta-btn-links {
         flex-direction: row;
         justify-content: center;
