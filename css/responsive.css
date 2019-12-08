@@ -8,7 +8,6 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1600px) {
-
     .user-wrapper {
         margin: 0;
         padding: 0 0.5rem;
@@ -515,11 +514,16 @@
 
     .cta-text {
         width: 100%;
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
+        
     }
-
+    .cta-text p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
     .cta-btn-links {
         flex-direction: row;
         justify-content: center;
@@ -530,7 +534,7 @@
 
     .ios {
         padding-bottom: 1.5rem;
-        padding-right:0;
+        padding-right: 0;
     }
 
     .ios-btn {
