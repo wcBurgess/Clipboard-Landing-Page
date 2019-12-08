@@ -510,6 +510,7 @@ footer {
     margin: 0;
     padding: 0;
     color: hsl(171, 59%, 53%);
+    line-height:2;
 }
 
 .attribution {
