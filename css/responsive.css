@@ -2,6 +2,7 @@
     .left-content {
         margin-left: -12rem;
     }
+
     .right-content {
         margin-left: 0;
     }
@@ -92,7 +93,6 @@
 
     .cta-text {
         width: 100%;
-
         margin: 0 auto;
         font-size: 0.8333rem;
         text-align: center;
@@ -108,7 +108,7 @@
 
     .ios {
         padding-bottom: 1.5rem;
-        padding-right:0;
+        padding-right: 0;
     }
 
     .ios-btn {
@@ -212,7 +212,6 @@
         display: block;
     }
 
-
     .container#mobile-footer {
         display: block;
         width: 80%;
@@ -282,6 +281,10 @@
 
 /*Small devices (landscape phones, less than 768px)*/
 @media screen and (min-width: 575px) and (max-width: 767.98px) {
+
+    body {
+        font-size: 1rem;
+    }
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top center;
@@ -306,15 +309,15 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        font-size: 0.8333rem;
+        font-size: 0.8889rem;
         text-align: center;
     }
-    
+
     .cta-text p {
         width: 100%;
         align-self: center;
     }
-    
+
     .cta-btn-links {
         flex-flow: column wrap;
         justify-content: center;
@@ -325,7 +328,7 @@
 
     .ios {
         padding-bottom: 1.5rem;
-        padding-right:0;
+        padding-right: 0;
     }
 
     .ios-btn {
@@ -343,11 +346,11 @@
     .feature-area {
         padding-top: 2.125rem;
     }
-    
+
     .container#feature {
         width: 90%;
     }
-    
+
     .track,
     .access,
     .cta {
@@ -503,66 +506,85 @@
 
 /*Small devices (landscape phones, less than 576px )*/
 @media screen and (max-width: 480px) {
-
+    html {
+        font-size: 18px;
+    }
+    body {
+        font-size: 1rem;
+    }
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
+        height: 14rem;
     }
 
     .intro-cta-area {
         padding-bottom: 0;
     }
-    
+
     .container#intro {
         width: 90%;
-    }
-    
-    .intro-h1 {
-        width: 100%;
-        align-self: center;
-        flex-flow: row nowrap;
-        text-align: center;
-        font-size: 1.667rem;
-        margin: 0;
-    }
-
-    .cta-text {
-        width: 100%;
-        height: 100%;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
     }
-    
-    .cta-text p {
+
+    .intro-h1 {
         width: 100%;
         align-self: center;
+        flex-flow: row nowrap;
+        text-align: center;
+        font-size: 1.889rem;
+        padding-bottom: 0;
     }
-    
-    .cta-btn-links {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+
+    .cta-text {
+        display: flex;
+        align-self: center;
         width: 100%;
+        line-height: 1.625rem;
+        padding: 1rem 0;
+    }
+
+    .cta-text p {
+        font-size: 17px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .cta-btn-links {
+        width: 90%;
+        flex-flow: column wrap;
         padding-top: 1rem;
     }
 
     .ios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding-bottom: 1.5rem;
         padding-right: 0;
     }
 
     .ios-btn {
-        align-self: center;
+        display: block;
+        width: 100%;
+        line-height: 2;
     }
 
     .mac {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
     }
 
     .mac-btn {
-        align-self: center;
+        display: block;
+        width: 100%;
+        line-height: 2;
     }
 
     .feature-area {
@@ -642,6 +664,10 @@
         flex-flow: column nowrap;
         justify-content: center;
         align-items: center;
+    }
+    .users-area {
+        padding-top: 2.125rem;
+        margin: 0 auto;
     }
 
     .user-wrapper {
