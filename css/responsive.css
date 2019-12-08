@@ -300,12 +300,21 @@
 
     .cta-text {
         width: 100%;
-
-        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         font-size: 0.8333rem;
         text-align: center;
     }
-
+    
+    .cta-text p {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
     .cta-btn-links {
         flex-flow: column wrap;
         justify-content: center;
@@ -334,11 +343,16 @@
     .feature-area {
         padding-top: 2.125rem;
     }
-
+    
+    .container#feature {
+        width: 90%;
+    }
+    
     .track,
     .access,
     .cta {
         width: 100%;
+        flex-flow: row wrap;
     }
 
     .access-image {
@@ -519,6 +533,11 @@
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
+    }
+    
+    .cta-text p {
+        width: 100%;
+        margin: 0 auto;
     }
     
     .cta-btn-links {
