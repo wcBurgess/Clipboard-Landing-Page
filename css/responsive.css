@@ -607,11 +607,15 @@
 
     .track-h2,
     .access-h2,
-    .workflow-h2,
-    .cta-h2 {
+    .workflow-h2 {
         flex-flow: row wrap;
         text-align: center;
         margin: 0 auto;
+    }
+    .cta-h2 {
+        flex-flow: row wrap;
+        text-align: center;
+        margin: 0 auto 1rem auto;
     }
 
     .track,
