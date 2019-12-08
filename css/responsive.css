@@ -351,7 +351,6 @@
     .cta {
         width: 100%;
         flex-flow: row wrap;
-        font-size: 16px;
     }
 
     .access-image {
@@ -502,16 +501,7 @@
 
 /*Small devices (landscape phones, less than 576px )*/
 @media screen and (max-width: 480px) {
-    html {
-        font-size: 18px;
-    }
-    body {
-        font-size: 1rem;
-    }
-    .container {
-        width: 90%;
-    }
-    
+
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
@@ -586,9 +576,9 @@
         width: 100%;
         line-height: 2;
     }
-    #feature,
-    #workflow,
-    #bottom_cta {
+    .container#feature,
+    .container#workflow,
+    .container#bottom_cta {
         width: 90%;
     }
     
@@ -609,6 +599,7 @@
     .access,
     .cta {
         width: 100%;
+        font-size: 16px;
     }
 
     .access-image {
