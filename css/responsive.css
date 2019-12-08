@@ -509,16 +509,15 @@
         align-self: center;
         flex-flow: row nowrap;
         text-align: center;
-        margin: 0 auto;
         font-size: 1.667rem;
         margin: 0;
     }
 
     .cta-text {
         width: 100%;
-        margin: 0 auto;
-        font-size: 0.8333rem;
-        text-align: center;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .cta-btn-links {
@@ -526,7 +525,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 0;
+        padding-top: 1rem;
     }
 
     .ios {
