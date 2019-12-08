@@ -501,7 +501,27 @@
 
 /*Small devices (landscape phones, less than 576px )*/
 @media screen and (max-width: 480px) {
-
+     .container#feature{
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container#workflow {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container#bottom_cta {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+    }
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
@@ -576,11 +596,7 @@
         width: 100%;
         line-height: 2;
     }
-    .container#feature,
-    .container#workflow,
-    .container#bottom_cta {
-        width: 90%;
-    }
+   
     
     .feature-area {
         padding-top: 2.125rem;
@@ -639,7 +655,6 @@
     .workflow {
         width: 100%;
         margin: 0 auto;
-
     }
 
     .workflow-wrapper {
