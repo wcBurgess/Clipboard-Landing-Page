@@ -702,7 +702,12 @@
         margin: 2rem auto;
         flex-flow: row wrap;
     }
-
+    
+    #bottom_cta_p{
+        width:90%;
+        font-size:16px;
+    }
+    
     .container#full-footer {
         display: none;
     }
