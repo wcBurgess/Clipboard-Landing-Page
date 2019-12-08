@@ -586,7 +586,12 @@
         width: 100%;
         line-height: 2;
     }
-
+    #feature,
+    #workflow,
+    #bottom_cta {
+        width: 90%;
+    }
+    
     .feature-area {
         padding-top: 2.125rem;
     }
