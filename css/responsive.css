@@ -499,7 +499,11 @@
     .intro-cta-area {
         padding-bottom: 0;
     }
-
+    
+    .container#intro {
+        width: 90%;
+    }
+    
     .intro-h1 {
         width: 100%;
         align-self: center;
