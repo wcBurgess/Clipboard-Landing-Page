@@ -21,7 +21,6 @@
     .main-header-area {
         background-image: url("../images/bg-header-desktop.png");
         background-position: top center;
-
     }
 
     .feature-area {
@@ -509,6 +508,10 @@
     body {
         font-size: 1rem;
     }
+    .container {
+        width: 90%;
+    }
+    
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
