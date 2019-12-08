@@ -305,7 +305,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        font-size: 0.8889rem;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -352,6 +352,7 @@
     .cta {
         width: 100%;
         flex-flow: row wrap;
+        font-size: 16px;
     }
 
     .access-image {
