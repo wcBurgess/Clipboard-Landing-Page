@@ -501,13 +501,14 @@
 
 /*Small devices (landscape phones, less than 576px )*/
 @media screen and (max-width: 480px) {
-     .container#feature{
+    .container#feature {
         width: 90%;
         display: flex;
         flex-flow: column wrap;
         justify-content: center;
         align-items: center;
     }
+
     .container#workflow {
         width: 90%;
         display: flex;
@@ -515,6 +516,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .container#bottom_cta {
         width: 90%;
         display: flex;
@@ -522,6 +524,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .main-header-area {
         background-image: url("../images/bg-header-mobile.png");
         background-position: top right;
@@ -596,8 +599,8 @@
         width: 100%;
         line-height: 2;
     }
-   
-    
+
+
     .feature-area {
         padding-top: 2.125rem;
     }
@@ -610,19 +613,28 @@
         text-align: center;
         margin: 0 auto;
     }
-    
+
     .track,
-    .access,
     .cta {
         width: 90%;
+        font-size: 16px;
+    }
+    .access {
+        width: 100%;
         font-size: 16px;
     }
     .feature-center-content {
         padding-top: 2.6875rem;
     }
+
     .feature-p {
         font-size: 16px;
     }
+
+    .feature-bottom-content {
+        padding-top: 2.6875rem;
+    }
+
     .access-image {
         width: 100%;
         margin: 0;
@@ -671,6 +683,7 @@
     .workflow-wrapper p {
         padding: 0;
         margin-top: 0;
+        font-size: 16px;
     }
 
     .container#users {
@@ -678,6 +691,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .users-area {
         padding-top: 2.125rem;
         margin: 0 auto;
